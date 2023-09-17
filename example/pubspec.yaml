@@ -12,7 +12,10 @@ dependencies:
   cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
-  flutter_compass: any
+  flutter_compass:
+    git:
+      url: https://github.com/KadaDev/flutter_compass
+      ref: master
   flutter_joystick: ^0.0.3
   flutter_map: any
   flutter_map_location_marker:
